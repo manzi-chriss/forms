@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-800">
+    <div class="h-screen">
+        <div class="h-48 sm:h-60 md:h-72 lg:h-80 xl:max-h-52 bg-blue-500 text-white flex items-center justify-center rounded-lg shadow-md">
+            <p class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold">LOG IN </p>
+        </div>
+        
+        <div class="p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
+            <div class="max-w-md mx-auto p-4 bg-white rounded-lg shadow-lg">
+                <h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">Login</h2>
+                <form>
+                  <div class="mb-4">
+                    <label for="username" class="block text-gray-600">Username</label>
+                    <input type="text" id="username" name="username" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500" placeholder="Your username" required>
+                  </div>
+                  <div class="mb-4">
+                    <label for "password" class="block text-gray-600">Password</label>
+                    <input type="password" id="password" name="password" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500" placeholder="Your password" required>
+                  </div>
+                  <div class="mb-6">
+                    <label class="flex items-center">
+                      <input type="checkbox" class="mr-2">
+                      <span class="text-sm text-gray-600">Remember me</span>
+                    </label>
+                  </div>
+                  <div class="mb-4">
+                    <button type="submit" class="w-full px-4 py-2 text-white bg-blue-500 rounded-lg hover-bg-blue-600 focus:outline-none">Log In</button>
+                  </div>
+                </form>
+                <div class="text-sm text-center text-gray-600">
+                  <p>Don't have an account? <a href="signin.html" class="text-blue-500">Sign up</a></p>
+                </div>
+              </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-600 p-4">
+            &copy; Producer Prince 2023
+        </footer>
+    </div>
+</body>
+</html>
